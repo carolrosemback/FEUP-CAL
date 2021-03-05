@@ -3,23 +3,23 @@
 cmake_policy(SET CMP0009 NEW)
 
 # TP1_FILES at CMakeLists.txt:9 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/TP1/*.cpp")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/TP1/*.cpp")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/cmake-build-debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # TP2_FILES at CMakeLists.txt:12 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/TP2/*.cpp")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/TP2/*.cpp")
 set(OLD_GLOB
-  "D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/TP2/ex1.cpp"
-  "D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/TP2/ex2.cpp"
-  "D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/TP2/ex3.cpp"
-  "D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/TP2/ex4.cpp"
+  "D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/TP2/ex1.cpp"
+  "D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/TP2/ex2.cpp"
+  "D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/TP2/ex3.cpp"
+  "D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/TP2/ex4.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/cmake-build-debug/CMakeFiles/cmake.verify_globs")
 endif()

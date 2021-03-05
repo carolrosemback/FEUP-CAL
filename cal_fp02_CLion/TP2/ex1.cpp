@@ -17,16 +17,30 @@ void  Labyrinth::print() const {
     }
 }
 
-bool Labyrinth::findGoal(int x, int y) {
-    //TODO
-    return false;
-}
 
 void Labyrinth::initializeVisited() {
     for(int i = 0; i < 10; i++)
         for(int j = 0; j < 10; j++)
             visited[i][j] = false;
 }
+
+bool Labyrinth::findGoal(int x, int y) {
+    if(labyrinth[x][y] == 2)
+        return true;
+    if(x>=0 && x<=9 && y>=0 && y<=9 && !visited[x][y] && labyrinth[x][y]==1) {
+        visited[x][y] = true;
+        if(findGoal(x+1 ,y) || findGoal(x-1,y) || findGoal(x, y+1) ||findGoal(x, y-1))
+            return true;
+        else{
+            visited[x][y] = false;
+            return false;
+        }
+    }
+
+    return false;
+}
+
+
 
 /// TESTS ///
 #include <gtest/gtest.h>

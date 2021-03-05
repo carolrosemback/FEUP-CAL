@@ -1,4 +1,4 @@
-# Install script for directory: D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/lib/googletest-master
+# Install script for directory: D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/lib/googletest-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
+  include("D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
 
 endif()
 

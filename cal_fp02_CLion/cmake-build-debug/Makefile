@@ -67,10 +67,10 @@ RM = "D:\Downloads\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion"
+CMAKE_SOURCE_DIR = "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,9 +145,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -172,7 +172,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake"
+	$(CMAKE_COMMAND) -P "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
@@ -436,7 +436,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake"
+	$(CMAKE_COMMAND) -P "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

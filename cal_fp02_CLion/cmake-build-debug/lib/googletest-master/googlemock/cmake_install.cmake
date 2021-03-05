@@ -1,4 +1,4 @@
-# Install script for directory: D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/lib/googletest-master/googlemock
+# Install script for directory: D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/lib/googletest-master/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,28 +33,28 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/lib/googletest-master/googlemock/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/lib/googletest-master/googlemock/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/cmake-build-debug/lib/libgmockd.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/cmake-build-debug/lib/libgmockd.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/cmake-build-debug/lib/libgmock_maind.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/cmake-build-debug/lib/libgmock_maind.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/cmake-build-debug/lib/googletest-master/googletest/generated/gmock.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/cmake-build-debug/lib/googletest-master/googletest/generated/gmock.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/cmake-build-debug/lib/googletest-master/googletest/generated/gmock_main.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/cmake-build-debug/lib/googletest-master/googletest/generated/gmock_main.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Documentos/FEUP/3 ano/2 semestre/CAL/FEUP-CAL-21/FEUP---CAL-2021/cal_fp02_CLion/cmake-build-debug/lib/googletest-master/googletest/cmake_install.cmake")
+  include("D:/Documentos/FEUP/3 ano/2 semestre/CAL/TP's/cal_fp02_CLion/cmake-build-debug/lib/googletest-master/googletest/cmake_install.cmake")
 
 endif()
 

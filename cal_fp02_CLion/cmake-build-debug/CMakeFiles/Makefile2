@@ -63,10 +63,10 @@ RM = "D:\Downloads\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion"
+CMAKE_SOURCE_DIR = "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -154,20 +154,20 @@ lib/googletest-master/googletest/clean: lib/googletest-master/googletest/CMakeFi
 # Target rules for target CMakeFiles/TP1.dir
 
 # All Build rule for target.
-CMakeFiles/TP1.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
-CMakeFiles/TP1.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/TP1.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/all
+CMakeFiles/TP1.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/TP1.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all
+CMakeFiles/TP1.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target TP1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target TP1"
 .PHONY : CMakeFiles/TP1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TP1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 10
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TP1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/TP1.dir/rule
 
 # Convenience name for target.
@@ -184,20 +184,20 @@ CMakeFiles/TP1.dir/clean:
 # Target rules for target CMakeFiles/TP2.dir
 
 # All Build rule for target.
-CMakeFiles/TP2.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
-CMakeFiles/TP2.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/TP2.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/all
+CMakeFiles/TP2.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/TP2.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all
+CMakeFiles/TP2.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2.dir\build.make CMakeFiles/TP2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2.dir\build.make CMakeFiles/TP2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" --progress-num=3,4,5,6,7,8 "Built target TP2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" --progress-num=3,4,5,6,7,8 "Built target TP2"
 .PHONY : CMakeFiles/TP2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TP2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 14
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TP2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/TP2.dir/rule
 
 # Convenience name for target.
@@ -214,18 +214,18 @@ CMakeFiles/TP2.dir/clean:
 # Target rules for target lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
+lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) $(MAKESILENT) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target gmock_main"
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 0
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -245,14 +245,14 @@ lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/clean:
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target gmock"
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 0
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -272,14 +272,14 @@ lib/googletest-master/googlemock/CMakeFiles/gmock.dir/clean:
 lib/googletest-master/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib\googletest-master\googletest\CMakeFiles\gtest.dir\build.make lib/googletest-master/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib\googletest-master\googletest\CMakeFiles\gtest.dir\build.make lib/googletest-master/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" --progress-num=13,14 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" --progress-num=13,14 "Built target gtest"
 .PHONY : lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 lib/googletest-master/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 0
 .PHONY : lib/googletest-master/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -299,14 +299,14 @@ lib/googletest-master/googletest/CMakeFiles/gtest.dir/clean:
 lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f lib\googletest-master\googletest\CMakeFiles\gtest_main.dir\build.make lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib\googletest-master\googletest\CMakeFiles\gtest_main.dir\build.make lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" --progress-num=15,16 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" --progress-num=15,16 "Built target gtest_main"
 .PHONY : lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles" 0
 .PHONY : lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -326,7 +326,7 @@ lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P "D:\Documentos\FEUP\3 ano\2 semestre\CAL\FEUP-CAL-21\FEUP---CAL-2021\cal_fp02_CLion\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake"
+	$(CMAKE_COMMAND) -P "D:\Documentos\FEUP\3 ano\2 semestre\CAL\TP's\cal_fp02_CLion\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
